@@ -1,5 +1,5 @@
-# drugstoreTest
-Proyecto para consultar disponibilidad de farmacias en la region metropolitana
+# CSN
+Proyecto para consultar eventos sismicos en distintos Paises
 
 # Pasos para instalación del Proyecto!
 
@@ -11,9 +11,11 @@ Proyecto para consultar disponibilidad de farmacias en la region metropolitana
 ```sh
 docker build -f Dockerfile -t drugstoreav . 
 ```
+- Generará la imagen del JAR
 ```sh
 docker run -p 8080:8080 drugstoreav
 ```
+- Iniciará el contenedor con la imagen generada
 
 # Endpoints Disponibles para consulta
 - consulta por nombre de comuna
